@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="digital-7.ttf">
+            <string>Digital-7</string>
+            <string>Digital-7</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="GPSTacho" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="speedometer.gif" translatesAutoresizingMaskIntoConstraints="NO" id="JqE-2A-e5x">
+                                <rect key="frame" x="4" y="0.0" width="592" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Daq-vl-ZZJ">
+                                <rect key="frame" x="190" y="482" width="220" height="88"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="299" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8W-c2-LeU">
+                                        <rect key="frame" x="3" y="4" width="100" height="57"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="57" id="Tpx-ak-ncw"/>
+                                            <constraint firstAttribute="width" constant="100" id="bbh-e8-NPA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="70"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aj1-dn-d3S">
+                                        <rect key="frame" x="-2" y="54" width="100" height="39"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="2Tg-ud-NUI"/>
+                                            <constraint firstAttribute="width" constant="100" id="OzL-vr-G1f"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="31"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 %" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwX-wl-gXL">
+                                        <rect key="frame" x="108" y="13" width="110" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="UBh-kr-NWA"/>
+                                            <constraint firstAttribute="height" constant="30" id="mX0-Im-0lh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGk-vu-8N5">
+                                        <rect key="frame" x="108" y="57" width="110" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="JoE-vS-Ldq"/>
+                                            <constraint firstAttribute="width" constant="110" id="wHd-De-CmL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="9Kz-Bt-PSU"/>
+                                    <constraint firstItem="OwX-wl-gXL" firstAttribute="top" secondItem="Daq-vl-ZZJ" secondAttribute="top" constant="13" id="9XO-9V-2k5"/>
+                                    <constraint firstAttribute="trailing" secondItem="OwX-wl-gXL" secondAttribute="trailing" constant="2" id="AyX-mQ-dbb"/>
+                                    <constraint firstAttribute="height" constant="88" id="EbW-Dv-BCc"/>
+                                    <constraint firstAttribute="bottom" secondItem="zGk-vu-8N5" secondAttribute="bottom" constant="3" id="Pey-su-7qj"/>
+                                    <constraint firstAttribute="bottom" secondItem="aj1-dn-d3S" secondAttribute="bottom" constant="-5" id="Pmm-dN-Ik4"/>
+                                    <constraint firstAttribute="trailing" secondItem="zGk-vu-8N5" secondAttribute="trailing" constant="2" id="fg8-be-xMi"/>
+                                    <constraint firstItem="M8W-c2-LeU" firstAttribute="top" secondItem="Daq-vl-ZZJ" secondAttribute="top" constant="4" id="iiF-ed-4vg"/>
+                                    <constraint firstItem="zGk-vu-8N5" firstAttribute="leading" secondItem="M8W-c2-LeU" secondAttribute="trailing" constant="5" id="pgP-nL-sND"/>
+                                    <constraint firstItem="zGk-vu-8N5" firstAttribute="leading" secondItem="aj1-dn-d3S" secondAttribute="trailing" constant="10" id="uEP-0v-8Fj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="JqE-2A-e5x" secondAttribute="trailing" constant="-16" id="3Hy-KZ-Xxa"/>
+                            <constraint firstItem="JqE-2A-e5x" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="Fa5-1Y-M8k"/>
+                            <constraint firstItem="JqE-2A-e5x" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="TGC-3T-Lot"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Daq-vl-ZZJ" secondAttribute="bottom" constant="30" id="jgQ-OY-vRV"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="JqE-2A-e5x" secondAttribute="bottom" id="ocg-yr-Wwb"/>
+                            <constraint firstAttribute="centerX" secondItem="Daq-vl-ZZJ" secondAttribute="centerX" id="thD-hL-JLs"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="dCO-Pe-4vV" appends="YES" id="kLN-gs-jwy"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="imView" destination="JqE-2A-e5x" id="bZ2-y0-dk6"/>
+                        <outlet property="lbBattery" destination="OwX-wl-gXL" id="50G-n5-EWs"/>
+                        <outlet property="lbDistance" destination="aj1-dn-d3S" id="BEc-Ye-02h"/>
+                        <outlet property="lbSpeed" destination="M8W-c2-LeU" id="YrL-nC-WX0"/>
+                        <outlet property="lbTime" destination="zGk-vu-8N5" id="Gld-1L-9uL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="dCO-Pe-4vV">
+                    <connections>
+                        <action selector="handleLongPress:" destination="vXZ-lx-hvc" id="UeR-TT-5PE"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="322" y="283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="speedometer.gif" width="568" height="320"/>
+    </resources>
+</document>

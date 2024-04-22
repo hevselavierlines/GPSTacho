@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216FBB4F1C9A000900AA6AF7 /* AnimatedFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FBB481C9A000900AA6AF7 /* AnimatedFrame.swift */; };
+		216FBB501C9A000900AA6AF7 /* AnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FBB491C9A000900AA6AF7 /* AnimatedImage.swift */; };
+		216FBB511C9A000900AA6AF7 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FBB4A1C9A000900AA6AF7 /* Functional.swift */; };
+		216FBB521C9A000900AA6AF7 /* ImageSourceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FBB4C1C9A000900AA6AF7 /* ImageSourceHelpers.swift */; };
+		216FBB531C9A000900AA6AF7 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FBB4D1C9A000900AA6AF7 /* UIImageExtension.swift */; };
+		216FBB541C9A000900AA6AF7 /* UIImageView+Gifu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216FBB4E1C9A000900AA6AF7 /* UIImageView+Gifu.swift */; };
+		2171FAF11B7A1B280013B305 /* speedometer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2171FAF01B7A1B280013B305 /* speedometer.gif */; };
+		2171FB011B7A29050013B305 /* ic_luncher.png in Resources */ = {isa = PBXBuildFile; fileRef = 2171FB001B7A29050013B305 /* ic_luncher.png */; };
+		21E230521B51837500756D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E230511B51837500756D3C /* AppDelegate.swift */; };
+		21E230541B51837500756D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E230531B51837500756D3C /* ViewController.swift */; };
+		21E230571B51837500756D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E230551B51837500756D3C /* Main.storyboard */; };
+		21E230591B51837500756D3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E230581B51837500756D3C /* Images.xcassets */; };
+		21E2305C1B51837500756D3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21E2305A1B51837500756D3C /* LaunchScreen.xib */; };
+		21E230681B51837500756D3C /* GPSTachoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E230671B51837500756D3C /* GPSTachoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21E230621B51837500756D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21E230441B51837500756D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21E2304B1B51837500756D3C;
+			remoteInfo = GPSTacho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		216FBB481C9A000900AA6AF7 /* AnimatedFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedFrame.swift; sourceTree = "<group>"; };
+		216FBB491C9A000900AA6AF7 /* AnimatedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImage.swift; sourceTree = "<group>"; };
+		216FBB4A1C9A000900AA6AF7 /* Functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		216FBB4B1C9A000900AA6AF7 /* Gifu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gifu.h; sourceTree = "<group>"; };
+		216FBB4C1C9A000900AA6AF7 /* ImageSourceHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSourceHelpers.swift; sourceTree = "<group>"; };
+		216FBB4D1C9A000900AA6AF7 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		216FBB4E1C9A000900AA6AF7 /* UIImageView+Gifu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Gifu.swift"; sourceTree = "<group>"; };
+		2171FAF01B7A1B280013B305 /* speedometer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = speedometer.gif; sourceTree = "<group>"; };
+		2171FB001B7A29050013B305 /* ic_luncher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_luncher.png; sourceTree = "<group>"; };
+		21A836111B7B3C730064BFD3 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		21E2304C1B51837500756D3C /* GPSTacho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSTacho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E230501B51837500756D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E230511B51837500756D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21E230531B51837500756D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21E230561B51837500756D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21E230581B51837500756D3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21E2305B1B51837500756D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		21E230611B51837500756D3C /* GPSTachoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSTachoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E230661B51837500756D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E230671B51837500756D3C /* GPSTachoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSTachoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21E230491B51837500756D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E2305E1B51837500756D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2171FAFF1B7A1C3A0013B305 /* gifu */ = {
+			isa = PBXGroup;
+			children = (
+				216FBB481C9A000900AA6AF7 /* AnimatedFrame.swift */,
+				216FBB491C9A000900AA6AF7 /* AnimatedImage.swift */,
+				216FBB4A1C9A000900AA6AF7 /* Functional.swift */,
+				216FBB4B1C9A000900AA6AF7 /* Gifu.h */,
+				216FBB4C1C9A000900AA6AF7 /* ImageSourceHelpers.swift */,
+				216FBB4D1C9A000900AA6AF7 /* UIImageExtension.swift */,
+				216FBB4E1C9A000900AA6AF7 /* UIImageView+Gifu.swift */,
+			);
+			name = gifu;
+			sourceTree = "<group>";
+		};
+		21E230431B51837500756D3C = {
+			isa = PBXGroup;
+			children = (
+				21E2304E1B51837500756D3C /* GPSTacho */,
+				21E230641B51837500756D3C /* GPSTachoTests */,
+				21E2304D1B51837500756D3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21E2304D1B51837500756D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21E2304C1B51837500756D3C /* GPSTacho.app */,
+				21E230611B51837500756D3C /* GPSTachoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21E2304E1B51837500756D3C /* GPSTacho */ = {
+			isa = PBXGroup;
+			children = (
+				21A836111B7B3C730064BFD3 /* digital-7.ttf */,
+				2171FAFF1B7A1C3A0013B305 /* gifu */,
+				2171FB001B7A29050013B305 /* ic_luncher.png */,
+				2171FAF01B7A1B280013B305 /* speedometer.gif */,
+				21E230511B51837500756D3C /* AppDelegate.swift */,
+				21E230531B51837500756D3C /* ViewController.swift */,
+				21E230551B51837500756D3C /* Main.storyboard */,
+				21E230581B51837500756D3C /* Images.xcassets */,
+				21E2305A1B51837500756D3C /* LaunchScreen.xib */,
+				21E2304F1B51837500756D3C /* Supporting Files */,
+			);
+			path = GPSTacho;
+			sourceTree = "<group>";
+		};
+		21E2304F1B51837500756D3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21E230501B51837500756D3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21E230641B51837500756D3C /* GPSTachoTests */ = {
+			isa = PBXGroup;
+			children = (
+				21E230671B51837500756D3C /* GPSTachoTests.swift */,
+				21E230651B51837500756D3C /* Supporting Files */,
+			);
+			path = GPSTachoTests;
+			sourceTree = "<group>";
+		};
+		21E230651B51837500756D3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21E230661B51837500756D3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21E2304B1B51837500756D3C /* GPSTacho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E2306B1B51837500756D3C /* Build configuration list for PBXNativeTarget "GPSTacho" */;
+			buildPhases = (
+				21E230481B51837500756D3C /* Sources */,
+				21E230491B51837500756D3C /* Frameworks */,
+				21E2304A1B51837500756D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSTacho;
+			productName = GPSTacho;
+			productReference = 21E2304C1B51837500756D3C /* GPSTacho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21E230601B51837500756D3C /* GPSTachoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E2306E1B51837500756D3C /* Build configuration list for PBXNativeTarget "GPSTachoTests" */;
+			buildPhases = (
+				21E2305D1B51837500756D3C /* Sources */,
+				21E2305E1B51837500756D3C /* Frameworks */,
+				21E2305F1B51837500756D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21E230631B51837500756D3C /* PBXTargetDependency */,
+			);
+			name = GPSTachoTests;
+			productName = GPSTachoTests;
+			productReference = 21E230611B51837500756D3C /* GPSTachoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21E230441B51837500756D3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Application Project Center";
+				TargetAttributes = {
+					21E2304B1B51837500756D3C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					21E230601B51837500756D3C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 21E2304B1B51837500756D3C;
+					};
+				};
+			};
+			buildConfigurationList = 21E230471B51837500756D3C /* Build configuration list for PBXProject "GPSTacho" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21E230431B51837500756D3C;
+			productRefGroup = 21E2304D1B51837500756D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21E2304B1B51837500756D3C /* GPSTacho */,
+				21E230601B51837500756D3C /* GPSTachoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21E2304A1B51837500756D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2171FAF11B7A1B280013B305 /* speedometer.gif in Resources */,
+				21E230571B51837500756D3C /* Main.storyboard in Resources */,
+				2171FB011B7A29050013B305 /* ic_luncher.png in Resources */,
+				21E2305C1B51837500756D3C /* LaunchScreen.xib in Resources */,
+				21E230591B51837500756D3C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E2305F1B51837500756D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21E230481B51837500756D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216FBB501C9A000900AA6AF7 /* AnimatedImage.swift in Sources */,
+				216FBB4F1C9A000900AA6AF7 /* AnimatedFrame.swift in Sources */,
+				216FBB531C9A000900AA6AF7 /* UIImageExtension.swift in Sources */,
+				216FBB541C9A000900AA6AF7 /* UIImageView+Gifu.swift in Sources */,
+				216FBB521C9A000900AA6AF7 /* ImageSourceHelpers.swift in Sources */,
+				216FBB511C9A000900AA6AF7 /* Functional.swift in Sources */,
+				21E230541B51837500756D3C /* ViewController.swift in Sources */,
+				21E230521B51837500756D3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E2305D1B51837500756D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E230681B51837500756D3C /* GPSTachoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21E230631B51837500756D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21E2304B1B51837500756D3C /* GPSTacho */;
+			targetProxy = 21E230621B51837500756D3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21E230551B51837500756D3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21E230561B51837500756D3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21E2305A1B51837500756D3C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21E2305B1B51837500756D3C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21E230691B51837500756D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21E2306A1B51837500756D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21E2306C1B51837500756D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPSTacho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21E2306D1B51837500756D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPSTacho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21E2306F1B51837500756D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GPSTachoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSTacho.app/GPSTacho";
+			};
+			name = Debug;
+		};
+		21E230701B51837500756D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GPSTachoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSTacho.app/GPSTacho";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21E230471B51837500756D3C /* Build configuration list for PBXProject "GPSTacho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E230691B51837500756D3C /* Debug */,
+				21E2306A1B51837500756D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21E2306B1B51837500756D3C /* Build configuration list for PBXNativeTarget "GPSTacho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E2306C1B51837500756D3C /* Debug */,
+				21E2306D1B51837500756D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21E2306E1B51837500756D3C /* Build configuration list for PBXNativeTarget "GPSTachoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E2306F1B51837500756D3C /* Debug */,
+				21E230701B51837500756D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21E230441B51837500756D3C /* Project object */;
+}
